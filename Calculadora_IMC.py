@@ -1,0 +1,6 @@
+#Calcular el IMC (Índice de Masa Corporal)
+nombre = input("Ingrese su nombre: ")
+peso = float(input("Ingrese su peso en kilogramos: "))
+estatura = float(input("Ingrese su estatura en metros: "))
+imc = peso / (estatura ** 2)
+print(f"Hola, {nombre}. Su IMC es: {imc:.2f}")
